@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 10",
+		"os_version" : "10.0"
+	},
+	"error" : {
+		"executable" : "quartus",
+		"comment" : "not_applicable",
+		"error_message" : "Access Violation at 0X0000000071FE7A69",
+		"source_file" : "unknown",
+		"line" : "0",
+		"stack_trace" : "\t 0x71fe7a68: QtGui4 + 0x3b7a68 (??1QMenu@@UEAA@XZ + 0x48)\n\t 0x71fe9b2b: QtGui4 + 0x3b9b2b (?exec@QMenu@@SAPEAVQAction@@V?$QList@PEAVQAction@@@@AEBVQPoint@@PEAV2@PEAVQWidget@@@Z + 0xdb)\n\t 0x71c9229a: QtGui4 + 0x6229a (?event@QWidget@@MEAA_NPEAVQEvent@@@Z + 0x5aa)\n\t 0x71c52f95: QtGui4 + 0x22f95 (?notify_helper@QApplicationPrivate@@QEAA_NPEAVQObject@@PEAVQEvent@@@Z + 0xf5)\n\t 0x71c51f36: QtGui4 + 0x21f36 (?notify@QApplication@@UEAA_NPEAVQObject@@PEAVQEvent@@@Z + 0xac6)\n\t 0x71a4e67b: QtCore4 + 0x10e67b (?notifyInternal@QCoreApplication@@AEAA_NPEAVQObject@@PEAVQEvent@@@Z + 0x7b)\n\t 0x71cb6a0f: QtGui4 + 0x86a0f (?trUtf8@QScrollBar@@SA?AVQString@@PEBD0H@Z + 0x149f)\n\t 0x71cba361: QtGui4 + 0x8a361 (?winMouseButtonUp@QApplication@@SAXXZ + 0x2761)\n\t0x7ffcb70cef74: USER32 + 0xef74 (CallWindowProcW + 0x614)\n\t0x7ffcb70ce69c: USER32 + 0xe69c (DispatchMessageW + 0x4ac)\n\t 0x71a73982: QtCore4 + 0x133982 (?processEvents@QEventDispatcherWin32@@UEAA_NV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@@Z + 0x3e2)\n\t 0x71cb2074: QtGui4 + 0x82074 (?openPopup@QApplicationPrivate@@QEAAXPEAVQWidget@@@Z + 0x204)\n\t 0x71a4b5db: QtCore4 + 0x10b5db (?exec@QEventLoop@@QEAAHV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@@Z + 0x22b)\n\t 0x71a4dbbf: QtCore4 + 0x10dbbf (?exec@QCoreApplication@@SAHXZ + 0xdf)\n\t0x7ff65662198b: quartus + 0x198b (?qgq_main@@YAHHPEAPEBD@Z + 0x8b)\n\t0x7ffc65f93258: CCL_MSG + 0x13258 (?msg_main_thread@@YAPEAXPEAX@Z + 0x18)\n\t0x7ffc65f94a5e: CCL_MSG + 0x14a5e (?msg_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x6e)\n\t0x7ffca2da6af0: ccl_mem + 0x16af0 (?mem_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x70)\n\t0x7ffc65f92af1: CCL_MSG + 0x12af1 (?msg_exe_main@@YAHHPEAPEBDP6AHH0@Z@Z + 0xa1)\n\t0x7ff656622777: quartus + 0x2777 (WinMain + 0x127)\n\t0x7ff656621f40: quartus + 0x1f40 (__tmainCRTStartup + 0x148)\n\t0x7ffcb66e7343: KERNEL32 + 0x17343 (BaseThreadInitThunk + 0x13)\n\t0x7ffcb7e026b0: ntdll + 0x526b0 (RtlUserThreadStart + 0x20)\n",
+		"subsystem" : "unknown"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "20.1.1",
+		"build" : "720",
+		"edition" : "Lite Edition"
+	}
+}
